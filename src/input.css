@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    @font-face {
+        font-family: kalameh-bold;
+        font-weight: bold;
+        src: url('./fonts/KalamehWeb\(FaNum\)-Bold.woff') format('woff')
+    }
+    @font-face {
+        font-family: kalameh;
+        font-weight: medium;
+        src: url('./fonts/KalamehWeb\(FaNum\)-Medium.woff') format('woff')
+    }
+}
